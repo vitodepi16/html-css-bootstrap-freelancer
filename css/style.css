@@ -1,10 +1,34 @@
 :root{
     /* Color styles */
 --low-green: #1ABC9C;
---bg-dark-grey: #2C3E50;
+--bg-dark-grey: #3A546D;
 --bg-main: #FFFFFF;
 --bg-dark-footer: #2C3E50;
 --text--dark-grey: #353535;
 --text-grey: #E1E4E8;
 
+}
+/* HERO */
+#hero{
+    background-color: var(--low-green);
+}
+/* PORTFOLIO */
+#portfolio{
+    background-color: var(--bg-main);
+}
+/* ABOUT */
+#about{
+    background-color: var(--low-green);
+}
+/*  CONTACT */
+#contact{
+    background-color: var(--bg-main);
+}
+/* INFO */
+#info{
+    background-color: var(--bg-dark-grey);
+}
+/* Copyright */
+#copyright{
+background-color: var(--bg-dark-footer);
 }
