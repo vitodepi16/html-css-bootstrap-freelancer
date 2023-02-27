@@ -8,6 +8,9 @@
 --text-grey: #E1E4E8;
 
 }
+header{
+    background-color: var(--bg-dark-grey);
+}
 /* HERO */
 #hero{
     background-color: var(--low-green);
