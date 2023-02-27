@@ -65,7 +65,7 @@
           <img src="./img/avatar.svg" style="width: 20rem;" alt="">
           <h1 class="text-uppercase">start bootsrap</h1>
           <span style="color: var(--bg-main);">
-            <i class="fa-solid fa-star"  ></i>
+            <i class="fa-solid fa fa-star" ></i>
           </span>
           
           <span class="text-uppercase">grapich artist - web designer - illustrator </span>
@@ -77,9 +77,9 @@
           <div class="row">
             <div class="col">
               <h2 style="color: var(--text--dark-grey)";>portfolio</h2>
-              <span style="color: var(--text--dark-grey);">
-                <i class="fa-solid fa-star"  ></i>
-              </span>
+              <div style="color: var(--text--dark-grey);">
+                <i class="fa-solid fa fa-star"  ></i>
+              </div> 
               <img src="./img/cabin.png" alt="">
               <img src="./img/cake.png" alt="">
               <img src="./img/circus.png" alt="">
@@ -103,7 +103,7 @@
               <p>
                 Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point! 
               </p>
-              <button type="button" class="btn btn-outline-secondary"> <i class="fa-solid fa-download"></i>Download</button>
+              <button type="button" class="btn btn-outline-secondary"> <i class="fa fa-solid fa-download"></i>Download</button>
             </div>
           </div>
           
@@ -111,7 +111,34 @@
       </section>
       <section id="contact">
         <div class="container">
-          <h2>contact me</h2>
+          <div class="row">
+            <div class="col">
+              <h2>contact me</h2>
+              <i class=" fa fa-solid fa-star"></i>
+              <div class="form-floating mb-3">
+                <input type="name" class="form-control" id="floatingInput" placeholder="name@example.com">
+                <label for="floatingInput">Name</label>
+              </div>
+              <div class="form-floating mb-3">
+                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                <label for="floatingInput">Email Address</label>
+              </div>
+              <div class="form-floating mb-3">
+                <input type="Phone" class="form-control" id="floatingInput" placeholder="name@example.com">
+                <label for="floatingInput">Email address</label>
+              </div>
+              <div class="form-floating">
+                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                <label for="floatingTextarea">Phone Number</label>
+              </div>
+              <div class="form-floating mt-3">
+                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                <label for="floatingTextarea2">Message</label>
+              </div>
+              <button class="btn  btn-lg mt-3" style="background-color: var(--low-green); color: var(--bg-main);" type="button">send</button>
+            </div>
+          </div>
+          
         </div>
       </section>
     </main>
@@ -119,11 +146,23 @@
       <section id="info">
         <div class="container">
           <h2 class="m-0">location</h2>
+          <p>2215 John Daniel Drive Clark, MO 54243</p>
+          <br>
+          <p>AROUND THE WEB</p>
+          <div class="cont-ul border-circle ">
+            <ul class="d-flex ">
+                <li><i class="fa-brands fa fa-instagram"></i></li>
+                <li><i class="fa-brands fa fa-facebook-f"></i></li>
+                <li><i class="fa-brands fa fa-twitter"></i></li>
+            </ul>
+            <h5 class="text-uppercase mb-0"> around the web</h5>
+            <p class="mb-0">Freelance is a free to use, open source Bootstrap theme created by <span style="color: var(--low-green);"> Start Bootsrtap</span></p>
+        </div>
         </div>
       </section>
       <section id="copyright">
         <div class="container">
-          <h3 class="p-0">Copyright</h3>
+          <h3>Copyright &copy; Tour Website 2019 </h3>
         </div>
       </section>
     </footer>

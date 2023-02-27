@@ -8,9 +8,10 @@
 --text-grey: #E1E4E8;
 
 }
-header{
-    background-color: var(--bg-dark-grey);
+footer{
+    color: var(--text-grey);
 }
+
 /* HERO */
 #hero{
     background-color: var(--low-green);
@@ -30,8 +31,26 @@ header{
 /* INFO */
 #info{
     background-color: var(--bg-dark-grey);
+  
 }
 /* Copyright */
 #copyright{
 background-color: var(--bg-dark-footer);
+
+}
+.btn-green{
+    background-color: var(--low-green);
+    color: var(--bg-main);
+}
+.border-circle li{
+    padding: 2px;
+    border: 1px solid var(--text-grey);
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 .5rem;
+ 
 }
