@@ -61,7 +61,7 @@
         </div>
       </nav>
       <div id="hero">
-        <div class="container " style="color: var(--bg-main);" >
+        <div class="container d-flex flex-wrap flex-column align-items-center" style="color: var(--bg-main);" >
           <img src="./img/avatar.svg" style="width: 20rem;" alt="">
           <h1 class="text-uppercase">start bootsrap</h1>
           <span style="color: var(--bg-main);">
@@ -73,19 +73,32 @@
       </div>
     </header>
     <main>
-        <div class="container">
-          <div class="row">
-            <div class="col">
-              <h2 style="color: var(--text--dark-grey)";>portfolio</h2>
+        <div class="container p-4 ">
+          <div class="row d-flex flex-wrap flex-column align-items-center">
+            <div class="col col-4 ">
+              <h2  style="color: var(--text--dark-grey)" ;>portfolio</h2>
               <div style="color: var(--text--dark-grey);">
                 <i class="fa-solid fa fa-star"  ></i>
               </div> 
-              <img src="./img/cabin.png" alt="">
-              <img src="./img/cake.png" alt="">
-              <img src="./img/circus.png" alt="">
-              <img src="./img/game.png" alt="">
-              <img src="./img/safe.png" alt="">
-              <img src="./img/submarine.png" alt="">
+              <div class="card p-4" style="width:100%;">
+                <img src="./img/cabin.png" class="card-img-top rounded-4" alt="house">
+              </div>
+              <div class="card p-4" style="width: 100%;">
+                <img src="./img/cake.png" class="card-img-top rounded-4" alt="cake">
+              </div>
+              <div class="card p-4" style="width: 100%;">
+                <img src="./img/circus.png" class="card-img-top rounded-4" alt="circus">
+              </div>
+              <div class="card p-4" style="width: 100%;">
+                <img src="./img/game.png" class="card-img-top rounded-4" alt="joypad">
+              </div>
+              <div class="card p-4" style="width: 100%;">
+                <img src="./img/safe.png" class="card-img-top rounded-4" alt="cassaforte">
+              </div>
+              <div class="card p-4" style="width: 100%;">
+                <img src="./img/submarine.png" class="card-img-top rounded-4" alt="Submarine">
+              </div>
+            
             </div>
           </div>
           
@@ -93,24 +106,24 @@
         </div>
       </section>
       <section id="about" style="color: var(--bg-main)">
-        <section class="container">
+        <section class="container p-4">
           <div class="row">
-            <div class="col">
-              <h2>About</h2>
-              <p>
+            <div class="col text-start">
+              <h2 class="text-center">About</h2>
+              <p class="lh-base">
                 Freelancer is a free bootsrtap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS and JavaScript as well as optional LESS stylesheets for easy customization.
               </p>
-              <p>
+              <p class="lh-base">
                 Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point! 
               </p>
-              <button type="button" class="btn btn-outline-secondary"> <i class="fa fa-solid fa-download"></i>Download</button>
+              <button type="button" class="btn btn-outline-secondary mt-3" style="color: var(--bg-main);"> <i class="fa fa-solid fa-download"></i>Download</button>
             </div>
           </div>
           
         </section>
       </section>
       <section id="contact">
-        <div class="container">
+        <div class="container p-4">
           <div class="row">
             <div class="col">
               <h2>contact me</h2>
@@ -144,13 +157,13 @@
     </main>
     <footer>
       <section id="info">
-        <div class="container">
+        <div class="container p-5 text-center">
           <h2 class="m-0">location</h2>
           <p>2215 John Daniel Drive Clark, MO 54243</p>
           <br>
           <p>AROUND THE WEB</p>
           <div class="cont-ul border-circle ">
-            <ul class="d-flex ">
+            <ul class="d-flex justify-content-center ">
                 <li><i class="fa-brands fa fa-instagram"></i></li>
                 <li><i class="fa-brands fa fa-facebook-f"></i></li>
                 <li><i class="fa-brands fa fa-twitter"></i></li>
@@ -161,7 +174,7 @@
         </div>
       </section>
       <section id="copyright">
-        <div class="container">
+        <div class="container p-5">
           <h3>Copyright &copy; Tour Website 2019 </h3>
         </div>
       </section>
