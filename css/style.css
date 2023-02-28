@@ -73,9 +73,23 @@ background-color: var(--bg-main);
 #about{
     background-color: var(--low-green);
 }
+#about .btn-download{
+    border: 1px solid white;
+    width: fit-content;
+
+}
 /*  CONTACT */
 #contact{
     background-color: var(--bg-main);
+}
+.btn-green{
+    background-color: var(--low-green);
+    color: var(--bg-main);
+    padding: 8px 16px;
+    border-radius: 10px;
+    border: 0px;
+    font-size: 1.2rem;
+
 }
 /* INFO */
 #info{
@@ -87,10 +101,8 @@ background-color: var(--bg-main);
 background-color: var(--bg-dark-footer);
 
 }
-.btn-green{
-    background-color: var(--low-green);
-    color: var(--bg-main);
-}
+
+
 .border-circle li{
     padding: 2px;
     border: 1px solid var(--text-grey);
